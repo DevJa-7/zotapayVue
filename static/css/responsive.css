@@ -1,0 +1,537 @@
+@media (min-width: 1139px) {
+  .humberg-menu {
+    display: none;
+  }
+  .mb {
+    display: none;
+  }
+}
+@media (max-width: 1199px) {
+}
+
+@media (max-width: 1139px) {
+  .humberg-menu span,
+  .humberg-menu span::after,
+  .humberg-menu span::before {
+    transition: all ease-in-out 0.2s;
+  }
+  .humberg-menu {
+    height: 25px;
+    width: 25px;
+    position: relative;
+    align-items: center;
+    align-content: center;
+  }
+  .humberg-menu span {
+    position: relative;
+    display: flex;
+    top: 50%;
+    height: 3px;
+    width: 25px;
+    background-color: #fff;
+    transform: translateY(-50%);
+  }
+  .humberg-menu span::before {
+    height: 100%;
+    width: 100%;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -5px;
+    background: #fff;
+  }
+  .humberg-menu span::after {
+    height: 100%;
+    width: 100%;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 5px;
+    background: #fff;
+  }
+  .humberg-menu.change-menu span {
+    background-color: transparent;
+  }
+  .humberg-menu.change-menu span::before {
+    transform: rotate(-45deg) translate(-6px, -2px);
+  }
+  .humberg-menu.change-menu span::after {
+    transform: rotate(45deg) translate(-9px, -2px);
+  }
+  .main-logo {
+    width: 161px;
+  }
+  .main-header {
+    padding: 20px 30px;
+  }
+  .main-header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header nav {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 25px 15px;
+    margin-top: 20px;
+    transform: translateX(100%);
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 111;
+    transition: all ease-in-out 0.3s;
+    top: 57px;
+  }
+  .main-menu li {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 15px;
+  }
+  .show-nav {
+    transform: translateX(0);
+  }
+
+  footer {
+    padding: 35px 30px;
+  }
+
+  .steps {
+    margin-left: 0;
+  }
+  .sub-header {
+    display: none;
+  }
+  .steps ul > li {
+    float: left;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+  .steps ul > li::after {
+    width: 62px;
+    height: 62px;
+    left: calc(50% - 32px);
+    top: -12px;
+  }
+  .steps ul > li::before {
+    line-height: 42px;
+    width: 42px;
+    font-size: 18px;
+    margin-left: calc(50% - 20px);
+  }
+  .steps ul > li > a {
+    height: 42px;
+    width: 42px;
+    margin-left: calc(50% - 20px);
+  }
+  .steps ul > li > a::after {
+    width: 50%;
+    height: 2px;
+    left: calc(50%);
+    top: calc(50% - 1px);
+    z-index: -1;
+  }
+  .steps ul > li > a::before {
+    height: 2px;
+    width: 50%;
+    background-color: #e5e5e5;
+    top: 20px;
+    left: 0;
+  }
+  .steps ul {
+    width: 100%;
+    display: flex;
+    max-width: 1000px;
+    overflow-x: hidden;
+  }
+  .container {
+    padding: 0;
+  }
+  .content {
+    float: right;
+    width: 100%;
+  }
+  .steps {
+    width: 100%;
+    margin-bottom: 40px;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 30px 0;
+  }
+  .w-30 {
+    width: 100%;
+  }
+
+  .w-40 {
+    width: 100%;
+  }
+
+  .w-45 {
+    width: 100%;
+  }
+
+  .w-50 {
+    width: 100%;
+  }
+
+  .w-55 {
+    width: 100%;
+  }
+
+  .w-60 {
+    width: 100%;
+  }
+
+  .w-70 {
+    width: 100%;
+  }
+
+  .w-80 {
+    width: 100%;
+  }
+
+  .w-100 {
+    width: 100%;
+  }
+  .s1 {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .s1-img {
+    padding-top: 0 !important;
+  }
+  .steps ul {
+    padding: 15px 0;
+  }
+  .main-steps-part {
+    padding: 0;
+  }
+  .btn,
+  .next-wrap .btn {
+    min-width: 100%;
+  }
+  .s1 > div {
+    padding-right: 0;
+  }
+  .minute-btn {
+    text-align: center;
+    justify-content: center;
+  }
+  .minute-btn .btn-1 {
+    margin-right: 0;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .mb-80 {
+    margin-bottom: 50px;
+  }
+  .mb-50 {
+    margin-bottom: 30px;
+  }
+  .select-date-img img {
+    margin-left: 0;
+  }
+  .ds {
+    display: none;
+  }
+  .st-mb {
+    margin-top: 50px;
+  }
+  br {
+    display: none;
+  }
+  .card-item {
+    margin-right: 0px;
+    min-width: 160px;
+  }
+  .personal-info .input-grp {
+    margin-right: 0;
+    padding-right: 0;
+  }
+  .custom-label {
+    line-height: 20px;
+    text-align: left;
+  }
+  .card-form label img {
+    max-width: 65%;
+  }
+  .reverse-mb {
+    flex-direction: column-reverse;
+  }
+  header {
+    overflow-x: hidden;
+  }
+  .btn-1 {
+    background-color: #2a85f7;
+    color: #fff;
+  }
+  .time-select {
+    width: 100%;
+  }
+  .time-select li {
+    float: left;
+    margin-right: 0;
+    width: 33.33%;
+    padding: 3px;
+    font-size: 14px;
+  }
+  .datepicker-main {
+    margin-right: 0;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .ped-form ul {
+    justify-content: space-between;
+  }
+  .mb-jus-center {
+    justify-content: center;
+  }
+
+  #homepage .content.clearfix {
+    padding: 0px 30px 94px 30px;
+  }
+
+  #homepage-p-0 .s1-img img {
+    margin-bottom: 0px;
+  }
+
+  #homepage-p-0 {
+    padding-top: 0;
+  }
+
+  #homepage-p-0 > div > h2 {
+    /* font-size: 50px !important; */
+    line-height: 1.3em !important;
+    text-transform: uppercase;
+  }
+
+  #homepage-p-0 > div > p {
+    display: none;
+  }
+
+  #homepage-p-0 > div p:nth-last-child(2) {
+    display: block;
+    /* font-size: 28px; */
+    color: #666463;
+    line-height: 1.6em;
+  }
+
+  #homepage-p-0 > div div a {
+    display: flex;
+    justify-content: center;
+    /* font-size: 33px; */
+    border-radius: 5px;
+  }
+
+  #homepage-p-0 > div div span {
+    /* font-size: 32px; */
+    margin-top: 0px;
+  }
+
+  .step-1 h2,
+  .step-2 h2,
+  .step-3 h2,
+  .step-4 h2,
+  .step-5 h2 {
+    font-size: 2em;
+    text-transform: uppercase;
+    line-height: 1.6em;
+    margin-bottom: 2em;
+    font-weight: bold;
+  }
+
+  .select-date-img img {
+    height: auto !important;
+  }
+  .s1-img {
+    margin-bottom: 3em !important;
+  }
+
+  .step-1 h2 br {
+    display: block;
+  }
+
+  .step-1 > div:first-child {
+    padding-top: 0 !important;
+  }
+
+  .step-1 p,
+  .step-3 p,
+  .step-4 p,
+  .step-5 p {
+    /* font-size: 30px; */
+    line-height: 1.5em;
+    margin-bottom: 4em;
+    padding: 0 30px;
+  }
+
+  .step-1 .minute-btn a {
+    display: flex;
+    justify-content: center;
+    /* font-size: 33px; */
+    border-radius: 5px;
+  }
+
+  .step-1 .minute-btn span {
+    /* font-size: 32px; */
+    margin-top: 3px;
+  }
+
+  .step-2 {
+    padding: 0px 40px 50px 40px;
+  }
+
+  .step-2 .select-date-img {
+    margin-bottom: 70px;
+  }
+
+  .step-2 .select-date-img img {
+    position: relative !important;
+    margin: 0;
+  }
+
+  .step-2 .step-name {
+    margin: 0 0 50px 0 !important;
+  }
+
+  .step-2 .datepicker-main {
+    padding: 0 20px;
+  }
+
+  .step-2 .datepicker-main .time-zone img {
+    margin-left: calc(8% - 10px);
+  }
+
+  .step-2 .ui-datepicker {
+    background-color: transparent;
+    border: none !important;
+    font-size: 0.9em;
+    width: 100% !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .step-2 .time-zone {
+    margin-bottom: 50px;
+  }
+
+  .step-2 .time-zone .mark {
+    width: 1.5em;
+    height: 1.5em;
+    filter: brightness(0.2);
+  }
+
+  .step-2 .time-zone .select-country {
+    font-size: 1.3em;
+  }
+
+  .step-2 .ui-datepicker-header {
+    margin-left: calc(7% - 15px) !important;
+  }
+
+  .step-2 .selected-date {
+    /* font-size: 28px; */
+  }
+
+  .step-2 .selected-date.mb-30 {
+    margin-bottom: 3em !important;
+    margin-top: 0;
+  }
+
+  .step-2 .hr.mb-100 {
+    display: block;
+    margin: 0 15px 3em 15px !important;
+  }
+
+  .step-2 .date-list {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .step-2 .time-select .btn-1 {
+    background-color: #2a85f7;
+  }
+
+  .step-2 .time-select .btn-1.more {
+    background-color: #fff;
+    color: #2a85f7;
+    border: 2px solid #2a85f7;
+  }
+
+  .step-2 .time-select {
+    padding: 0;
+  }
+
+  .step-2 .btn-1.time {
+    font-weight: bold;
+  }
+
+  .step-2 .btn-1.time img {
+    width: 1.3em;
+    height: 1.3em;
+  }
+
+  .step-2 .time-select {
+    max-height: none !important;
+  }
+
+  .step-2 .time-select li {
+    padding: 3px 15px;
+  }
+
+  .step-3 {
+    padding: 10px 40px 50px 40px;
+  }
+
+  .step-3 .intro .select-date-img {
+    margin-bottom: 0;
+  }
+
+  .step-3 .intro .w-60.pr-40 {
+    padding-top: 0;
+  }
+
+  .step-3 .w-30 {
+    width: 30%;
+  }
+
+  .step-3 .next-wrap a {
+    /* font-size: 30px; */
+    font-weight: 100;
+  }
+
+  .step-4 {
+    padding: 10px 40px 50px 40px;
+  }
+
+  .step-4 .next-wrap a {
+    /* font-size: 30px; */
+    font-weight: 100;
+  }
+  .step-4 .w-45.pr-40 {
+    padding: 0;
+  }
+
+  .step-5 {
+    padding: 10px 40px 50px 40px;
+  }
+
+  .step-5 #final-btn {
+    /* font-size: 30px; */
+    font-weight: 100;
+  }
+
+  .step-5 .w-45.pr-40 {
+    padding: 0;
+  }
+
+  .step-5 .select-date-img img {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .step-2 .datepicker-main {
+    padding: 0;
+  }
+}
